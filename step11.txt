@@ -1,0 +1,1286 @@
+{
+  "version": {
+    "_version": 11.01,
+    "autoSaveFromRestore": false,
+    "components": [],
+    "creatorID": 971998,
+    "folders": {},
+    "manualSave": false,
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "es-ES"
+        ],
+        "defaultVoice": "Conchita"
+      },
+      "publishing": {
+        "launcher": "https://cm4-production-assets.s3.amazonaws.com/1722734947253-img_2109.jpg",
+        "image": "https://cm4-production-assets.s3.amazonaws.com/1722734966897-img_2109.jpg",
+        "avatar": "https://cm4-production-assets.s3.amazonaws.com/1722734973429-img_2109.jpg",
+        "color": "#000000"
+      },
+      "platform": "webchat"
+    },
+    "prototype": {
+      "data": {
+        "name": "GrowthXSearch",
+        "locales": [
+          "es-ES"
+        ]
+      },
+      "model": {
+        "intents": [],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "63067e968cbdb692c97b063a",
+            "storage": {},
+            "variables": {},
+            "diagramID": "63067e968cbdb692c97b063a"
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "nonDraftResponsesMap": {},
+        "responseMessagesByDiscriminatorIDMap": {},
+        "responseDiscriminatorsByResponseIDMap": {},
+        "functionDefinitions": {},
+        "referencedResponseIDs": [
+          "66c539d55d509700075e6f43",
+          "66c539d55d509700075e6f47",
+          "66c539d55d509700075e6f4a",
+          "66c539d55d509700075e6f4d"
+        ],
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "projectType": "chat",
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [],
+        "goToIntentsSet": [],
+        "cmsVariables": {
+          "sessions": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "last_event": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "userQuery": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "apiResponse": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "query": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "threadID": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "serverMessage": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          }
+        },
+        "entitiesMap": {},
+        "variableMap": {},
+        "intentsMap": {},
+        "requiredEntitiesMap": {}
+      },
+      "settings": {
+        "brandImage": "https://cm4-production-assets.s3.amazonaws.com/1722728557290-img_2109.jpg",
+        "avatar": "https://cm4-production-assets.s3.amazonaws.com/1722728561034-img_2109.jpg"
+      },
+      "platform": "webchat",
+      "type": "chat"
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "63067e968cbdb692c97b063a"
+      }
+    ],
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory",
+      "userQuery",
+      "apiResponse",
+      "query",
+      "answer",
+      "threadID",
+      "serverMessage"
+    ],
+    "programResources": {
+      "messages": {
+        "66c539d55d509700075e6f43": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "¡Bienvenido! El equipo de GrowthX ha creado cientos de horas de contenido para asegurarse de que ustedes sepan todo lo que necesitan saber para tener éxito y crecer. Creamos una herramienta para que pueda hablar con estos videos y devolver el video y la marca de tiempo dentro del video en el que se puede responder su pregunta."
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66c539d55d509700075e6f47": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": " "
+                        },
+                        {
+                          "text": "{last_response}"
+                        },
+                        {
+                          "text": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66c539d55d509700075e6f4a": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "¡Pruébalo! Escribe \"¿qué  es un SAFE agreement?\""
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66c539d55d509700075e6f4d": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Un par de cosas a saber, se tardará unos 20 segundos en responder, por favor, sólo enviar un mensaje a la vez, y todo lo que desea encontrar es, sin duda dentro de la marca de tiempo que le da (pero a veces, puede que tenga que fastfoward un minuto o dos para encontrar lo que estás buscando) "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    "_id": "66ac43b4f34d75b35b5e2ded",
+    "updatedAt": "2024-08-21T17:29:32.497Z",
+    "domains": [
+      {
+        "id": "clzc321yq62xe07osgikqh1d6",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "63067e968cbdb692c97b063a"
+        ],
+        "rootDiagramID": "63067e968cbdb692c97b063a",
+        "updatedAt": "2024-08-02T02:25:56.602Z"
+      }
+    ],
+    "projectID": "66ac43b4f34d75b35b5e2dec",
+    "rootDiagramID": "63067e968cbdb692c97b063a"
+  },
+  "diagrams": {
+    "63067e968cbdb692c97b063a": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63068ee2b9d93f34f5d1f11c",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          385.9,
+                          100.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          445.6,
+                          100.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          445.6,
+                          54.94
+                        ]
+                      },
+                      {
+                        "point": [
+                          505.3,
+                          54.94
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            321.26138293106055,
+            78.19392824442801
+          ]
+        },
+        "63068ee2b9d93f34f5d1f11c": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "steps": [
+              "66ac4571625aa4cf74524e3b"
+            ],
+            "color": ""
+          },
+          "nodeID": "63068ee2b9d93f34f5d1f11c",
+          "coords": [
+            670.3017678452849,
+            27.9384935748209
+          ]
+        },
+        "66ac4571625aa4cf74524e3b": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://rag-search-israellopez-mor.replit.app/start",
+            "body": [],
+            "params": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "method": "GET",
+            "headers": [
+              {
+                "key": "Content-Type",
+                "val": "application/json"
+              }
+            ],
+            "content": "",
+            "mappings": [
+              {
+                "path": "response.message",
+                "var": "66ac5d4cf34d75b35b5e35d3"
+              }
+            ],
+            "bodyType": "formData",
+            "selectedAction": "Make a GET Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66ac4ab2c0cf7b11c3f8e92c",
+                  "id": "66ac4571625aa4cf74524e3c",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          836.3,
+                          195.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          860.3,
+                          195.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          860.3,
+                          31.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          884.3,
+                          31.69
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "66ac4571625aa4cf74524e3d"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "66ac4571625aa4cf74524e3b"
+        },
+        "66ac4ab2c0cf7b11c3f8e92c": {
+          "type": "message",
+          "data": {
+            "messageID": "66c539d55d509700075e6f43",
+            "draft": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66ac4ab2c0cf7b11c3f8e92d",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "66ac4ab2c0cf7b11c3f8e92c"
+        },
+        "66ac4ab2c0cf7b11c3f8e92e": {
+          "type": "block",
+          "data": {
+            "name": "New Block 3",
+            "steps": [
+              "66ac4ab2c0cf7b11c3f8e92c",
+              "66b01840984424014c70f055",
+              "66aef85f984424014c70f029",
+              "66ac4bb1c0cf7b11c3f8e941"
+            ]
+          },
+          "nodeID": "66ac4ab2c0cf7b11c3f8e92e",
+          "coords": [
+            1050.3017578124998,
+            -47.31152343749997
+          ]
+        },
+        "66ac4b24c0cf7b11c3f8e936": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://rag-search-israellopez-mor.replit.app/query",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "Content-Type",
+                "val": "application/json"
+              }
+            ],
+            "content": "{\n  \"query\": \"{last_utterance}\"\n}\n",
+            "mappings": [
+              {
+                "path": "response.answer",
+                "var": "last_response"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66ac5de0c0cf7b11c3f8e962",
+                  "id": "66ac4b24c0cf7b11c3f8e937",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1494.3,
+                          -20.31
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          1470.3,
+                          -20.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          1470.3,
+                          159.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          1654.05,
+                          159.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          1654.05,
+                          338.94
+                        ]
+                      },
+                      {
+                        "point": [
+                          1630.05,
+                          338.94
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "66ac4b24c0cf7b11c3f8e938"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "66ac4b24c0cf7b11c3f8e936"
+        },
+        "66ac4b24c0cf7b11c3f8e939": {
+          "type": "block",
+          "data": {
+            "name": "New Block 4",
+            "steps": [
+              "66ac4b24c0cf7b11c3f8e936"
+            ]
+          },
+          "nodeID": "66ac4b24c0cf7b11c3f8e939",
+          "coords": [
+            1660.3017578124995,
+            -188.0615234375
+          ]
+        },
+        "66ac4bb1c0cf7b11c3f8e941": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "last_utterance"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66ac4b24c0cf7b11c3f8e936",
+                  "id": "66ac4bb1c0cf7b11c3f8e942",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1216.3,
+                          623.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          1355.3,
+                          623.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          1355.3,
+                          -109.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          1494.3,
+                          -109.06
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "66ac4bb1c0cf7b11c3f8e943"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "66ac4bb1c0cf7b11c3f8e941",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "66ac5de0c0cf7b11c3f8e962": {
+          "type": "message",
+          "data": {
+            "messageID": "66c539d55d509700075e6f47",
+            "draft": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "66ac4bb1c0cf7b11c3f8e941",
+                  "id": "66ac5de0c0cf7b11c3f8e963",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1298.05,
+                          338.94
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          1257.18,
+                          338.94
+                        ]
+                      },
+                      {
+                        "point": [
+                          1257.18,
+                          614.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          1216.3,
+                          614.19
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "66ac5de0c0cf7b11c3f8e962"
+        },
+        "66ac5de0c0cf7b11c3f8e965": {
+          "type": "block",
+          "data": {
+            "name": "Send Response copy",
+            "color": "#56b365",
+            "steps": [
+              "66ac5de0c0cf7b11c3f8e962"
+            ]
+          },
+          "nodeID": "66ac5de0c0cf7b11c3f8e965",
+          "coords": [
+            1464.0517578124995,
+            259.93847656249994
+          ]
+        },
+        "66aef85f984424014c70f029": {
+          "type": "message",
+          "data": {
+            "messageID": "66c539d55d509700075e6f4a",
+            "draft": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66aef85f984424014c70f02a"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "66aef85f984424014c70f029"
+        },
+        "66b01840984424014c70f055": {
+          "type": "message",
+          "data": {
+            "messageID": "66c539d55d509700075e6f4d",
+            "draft": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66b01840984424014c70f056"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "66b01840984424014c70f055"
+        }
+      },
+      "offsetX": 302.9908936551516,
+      "offsetY": 237.4448574044576,
+      "modified": 1661370006,
+      "children": [],
+      "creatorID": 971998,
+      "variables": [],
+      "intentStepIDs": [],
+      "menuNodeIDs": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "_id": "66ac43b4f34d75b35b5e2dee",
+      "diagramID": "63067e968cbdb692c97b063a",
+      "versionID": "66ac43b4f34d75b35b5e2ded"
+    }
+  },
+  "flows": [],
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 971998,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    }
+  ],
+  "utterances": [],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [
+    {
+      "id": "66c539d55d509700075e6f43",
+      "name": "",
+      "createdByID": 971998,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-08-21T00:50:29.000Z",
+      "updatedAt": "2024-08-21T00:50:29.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "66c539d55d509700075e6f47",
+      "name": "",
+      "createdByID": 971998,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-08-21T00:50:29.000Z",
+      "updatedAt": "2024-08-21T00:50:29.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "66c539d55d509700075e6f4a",
+      "name": "",
+      "createdByID": 971998,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-08-21T00:50:29.000Z",
+      "updatedAt": "2024-08-21T00:50:29.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "66c539d55d509700075e6f4d",
+      "name": "",
+      "createdByID": 971998,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-08-21T00:50:29.000Z",
+      "updatedAt": "2024-08-21T00:50:29.000Z",
+      "updatedByID": 971998
+    }
+  ],
+  "responseMessages": [
+    {
+      "id": "66c539d55d509700075e6f45",
+      "discriminatorID": "66c539d55d509700075e6f44",
+      "text": [
+        {
+          "text": [
+            "¡Bienvenido! El equipo de GrowthX ha creado cientos de horas de contenido para asegurarse de que ustedes sepan todo lo que necesitan saber para tener éxito y crecer. Creamos una herramienta para que pueda hablar con estos videos y devolver el video y la marca de tiempo dentro del video en el que se puede responder su pregunta."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-08-21T00:50:29.000Z"
+    },
+    {
+      "id": "66c539d55d509700075e6f46",
+      "discriminatorID": "66c539d55d509700075e6f44",
+      "text": [
+        {
+          "text": [
+            ""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-08-21T00:50:29.000Z"
+    },
+    {
+      "id": "66c539d55d509700075e6f49",
+      "discriminatorID": "66c539d55d509700075e6f48",
+      "text": [
+        {
+          "text": [
+            " ",
+            {
+              "variableID": "last_response"
+            },
+            ""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-08-21T00:50:29.000Z"
+    },
+    {
+      "id": "66c539d55d509700075e6f4c",
+      "discriminatorID": "66c539d55d509700075e6f4b",
+      "text": [
+        {
+          "text": [
+            "¡Pruébalo! Escribe \"¿qué  es un SAFE agreement?\""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-08-21T00:50:29.000Z"
+    },
+    {
+      "id": "66c539d55d509700075e6f4f",
+      "discriminatorID": "66c539d55d509700075e6f4e",
+      "text": [
+        {
+          "text": [
+            "Un par de cosas a saber, se tardará unos 20 segundos en responder, por favor, sólo enviar un mensaje a la vez, y todo lo que desea encontrar es, sin duda dentro de la marca de tiempo que le da (pero a veces, puede que tenga que fastfoward un minuto o dos para encontrar lo que estás buscando) "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-08-21T00:50:29.000Z"
+    }
+  ],
+  "responseDiscriminators": [
+    {
+      "id": "66c539d55d509700075e6f44",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66c539d55d509700075e6f43",
+      "variantOrder": [
+        "66c539d55d509700075e6f45",
+        "66c539d55d509700075e6f46"
+      ],
+      "createdAt": "2024-08-21T00:50:29.000Z"
+    },
+    {
+      "id": "66c539d55d509700075e6f48",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66c539d55d509700075e6f47",
+      "variantOrder": [
+        "66c539d55d509700075e6f49"
+      ],
+      "createdAt": "2024-08-21T00:50:29.000Z"
+    },
+    {
+      "id": "66c539d55d509700075e6f4b",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66c539d55d509700075e6f4a",
+      "variantOrder": [
+        "66c539d55d509700075e6f4c"
+      ],
+      "createdAt": "2024-08-21T00:50:29.000Z"
+    },
+    {
+      "id": "66c539d55d509700075e6f4e",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66c539d55d509700075e6f4d",
+      "variantOrder": [
+        "66c539d55d509700075e6f4f"
+      ],
+      "createdAt": "2024-08-21T00:50:29.000Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-08-02T02:25:57.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "66ac4c90f34d75b35b5e30a0",
+      "name": "userQuery",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T03:03:44.000Z",
+      "updatedAt": "2024-08-02T03:03:44.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "66ac4d08f34d75b35b5e30b0",
+      "name": "apiResponse",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T03:05:44.000Z",
+      "updatedAt": "2024-08-02T03:05:44.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "66ac53fdf34d75b35b5e3310",
+      "name": "query",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T03:35:25.000Z",
+      "updatedAt": "2024-08-02T03:35:25.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "66ac5571f34d75b35b5e3330",
+      "name": "last_response",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T03:41:38.000Z",
+      "updatedAt": "2024-08-02T04:16:48.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "66ac55cbf34d75b35b5e3342",
+      "name": "threadID",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T03:43:07.000Z",
+      "updatedAt": "2024-08-02T03:43:07.000Z",
+      "updatedByID": 971998
+    },
+    {
+      "id": "66ac5d4cf34d75b35b5e35d3",
+      "name": "serverMessage",
+      "createdByID": 971998,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-08-02T04:15:09.000Z",
+      "updatedAt": "2024-08-02T04:15:09.000Z",
+      "updatedByID": 971998
+    }
+  ],
+  "workflows": [
+    {
+      "id": "66ac43b40d1ea10007aee445",
+      "name": "Home",
+      "createdByID": 971998,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "63067e968cbdb692c97b063a",
+      "assigneeID": null,
+      "description": null,
+      "createdAt": "2024-08-02T02:25:57.000Z",
+      "updatedAt": "2024-09-30T04:17:44.000Z",
+      "updatedByID": 971998
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "project": {
+    "type": "chat",
+    "name": "GrowthXSearch",
+    "image": "",
+    "teamID": "dGj3mwrpEe",
+    "members": [],
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 971998,
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "privacy": "private",
+    "updatedBy": 971998,
+    "apiPrivacy": "public",
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "_id": "66ac43b4f34d75b35b5e2dec",
+    "updatedAt": "2024-09-30T04:18:04.740Z",
+    "knowledgeBase": {
+      "settings": {
+        "summarization": {
+          "prompt": "",
+          "mode": "prompt",
+          "model": "gpt-3.5-turbo",
+          "maxTokens": 128,
+          "temperature": 0.1,
+          "system": "You are an FAQ AI chat agent. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences."
+        },
+        "chunkStrategy": {
+          "type": "recursive_text_splitter",
+          "size": 1200,
+          "overlap": 200
+        },
+        "search": {
+          "limit": 3,
+          "metric": "IP"
+        },
+        "embeddingModel": {
+          "model": "text-embedding-3-large",
+          "size": 1024
+        }
+      }
+    },
+    "devVersion": "66ac43b4f34d75b35b5e2ded",
+    "liveVersion": "66aed94c39e24659ecfb31c5"
+  },
+  "_version": "1.2",
+  "secrets": [],
+  "variableStates": []
+}
