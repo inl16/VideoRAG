@@ -207,8 +207,8 @@ def open_skool_page_login_and_redirect(url, email, password, redirect_urls):
     driver.quit()
 
 url = 'https://www.skool.com/growthx'
-email = 'israel.lmorillo@gmail.com'
-password = 'Zyzzbrah2018!'
+email = ''
+password = ''
 redirect_urls = [
     "https://www.skool.com/growthx-academy-6876/classroom/7c50ae1e?md=9d0ae157ef894b9ea059e22f0433ac13",
     "https://www.skool.com/growthx-academy-6876/classroom/7c50ae1e?md=9a10b11136f84376a3980393d3aba06a",
